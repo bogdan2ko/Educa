@@ -27,7 +27,6 @@ cd educa
 python -m venv venv
 source venv/bin/activate  # for Linux/macOS
 venv\Scripts\activate  # for Windows 
-
 ``` 
 4. Install the dependencies:
 ``` 
