@@ -15,21 +15,22 @@ API endpoints: The application provides a set of API endpoints built using DRF f
 To run Educa on your local machine, follow these steps:
 
 1. Clone the repository: 
-``` git clone https://github.com/your-username/educa.git     ```
+``` git clone https://github.com/your-username/educa.git```
 2. Navigate to the project directory:
-``` cd educa       ``` 
+``` cd educa``` 
 3. Create and activate a virtual environment: 
-``` python -m venv venv ```
-``` source venv/bin/activate  # for Linux/macOS```
-``` venv\Scripts\activate  # for Windows   ```    
+```python -m venv venv
+   source venv/bin/activate  # for Linux/macOS
+   venv\Scripts\activate  # for Windows  
+``` 
 4. Install the dependencies:
-``` pip install -r requirements.txt       ```
+``` pip install -r requirements.txt```
 5. Set up the database:
-``` python manage.py migrate     ```
+``` python manage.py migrate```
 6. Create a superuser (admin) account:
-``` python manage.py createsuperuser      ```
+``` python manage.py createsuperuser```
 7. Start the development server:
-```     python manage.py runserver        ```
+```python manage.py runserver```
 8. Open your web browser and navigate to http://localhost:8000 to access the application.
 
 ## Usage
